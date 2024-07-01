@@ -1,7 +1,6 @@
 {
     "version": "8.5.0",
     "url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup.exe",
-    "hash": "sha256:969F4FE9E6DBEB73843EE32B1317841B7A3CB61A963C2BB3132B413ABD395118",
     "bin": "SendAnywhereSetup.exe",
     "architecture": "x64",
     "license": "Proprietary",
