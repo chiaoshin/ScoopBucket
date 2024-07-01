@@ -1,0 +1,23 @@
+{
+    "version": "8.5.0",
+    "url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup.exe?_gl=1*1frb3rd*_ga*MTE2OTkwOTAzMy4xNzEyNDkwNDM3*_ga_SHGDYFMJXL*MTcxOTgyMjMwNi4xMS4xLjE3MTk4MjIzNTUuMTEuMC4w&_ga=2.159695295.302423960.1719819874-1169909033.1712490437",
+    "hash": "969F4FE9E6DBEB73843EE32B1317841B7A3CB61A963C2BB3132B413ABD395118",
+    "bin": "SendAnywhereSetup.exe",
+    "architecture": "x64",
+    "license": "Proprietary",
+    "description": "SendAnywhere is a file sharing application that lets you send files of any size directly from your device.",
+    "homepage": "https://www.send-anywhere.com/",
+    "shortcuts": [
+      [
+        "SendAnywhereSetup.exe",
+        "SendAnywhereSet"
+      ]
+    ],
+    "checkver": {
+      "url": "https://send-anywhere.com/file-transfer",
+      "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+      "url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup.exe?_gl=1*1frb3rd*_ga*MTE2OTkwOTAzMy4xNzEyNDkwNDM3*_ga_SHGDYFMJXL*MTcxOTgyMjMwNi4xMS4xLjE3MTk4MjIzNTUuMTEuMC4w&_ga=2.159695295.302423960.1719819874-1169909033.1712490437"
+    }
+  }
