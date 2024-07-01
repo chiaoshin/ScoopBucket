@@ -1,7 +1,7 @@
 {
     "version": "20.12.230853.1354",
-    "url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup.exe#/dl.7z",
-    "hash": "md5:72573D040FA6C95E7EF32D3C2C66C472",
+    "url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup.exe",
+    "hash": "sha256:280aaef24a59619232f595c145d9c97cf677d5b3cf19441143e2bbcec5eac31d",
     "bin": "SendAnywhereSetup.exe",
     "architecture": "x64",
     "innosetup": true,
@@ -14,11 +14,16 @@
         "SendAnywhereSet"
       ]
     ],
+    "installer": {
+    "script": [
+      "Start-Process -Wait -FilePath \"$dir\\SendAnywhereSetup.exe\" -ArgumentList \"/S\""
+    ]
+  },
     "checkver": {
       "url": "https://send-anywhere.com/file-transfer",
       "regex": "v([\\d.]+)"
     },
     "autoupdate": {
-      "url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup.exe#/dl.7z"
+      "url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup"
     }
   }
