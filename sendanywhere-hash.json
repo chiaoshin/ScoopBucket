@@ -1,9 +1,10 @@
 {
     "version": "20.12.230853.1354",
-    "url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup.exe",
+    "url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup.exe#/dl.7z",
     "hash": "md5:72573D040FA6C95E7EF32D3C2C66C472",
     "bin": "SendAnywhereSetup.exe",
     "architecture": "x64",
+    "innosetup": true,
     "license": "Proprietary",
     "description": "SendAnywhere is a file sharing application that lets you send files of any size directly from your device.",
     "homepage": "https://www.send-anywhere.com/",
@@ -18,6 +19,6 @@
       "regex": "v([\\d.]+)"
     },
     "autoupdate": {
-      "url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup.exe"
+      "url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup.exe#/dl.7z"
     }
   }
