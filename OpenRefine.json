@@ -1,10 +1,26 @@
 {
     "version":  "3.8.1",
     "license":  "Proprietary",
-    "extract_dir":  "openrefine-win-with-java-3.8.1",
+    "architecture": "x64",
+    "homepage":  "https://openrefine.org/download",  
     "url":  "https://github.com/OpenRefine/OpenRefine/releases/download/3.8.1/openrefine-win-with-java-3.8.1.zip",
-    "homepage":  "https://openrefine.org/download",
     "hash":  "sha256:094c9b3716608912abb5365ad4826acad94c3cf4f4890db1dfac0a48482475fa",
     "bin":  "openrefine-win-with-java-3.8.1.zip",
-    "extract_to": "OpenRefine/3.8.1"
+    "extract_dir":  "openrefine-win-with-java-3.8.1",
+    "extract_to": "OpenRefine/3.8.1",
+    "shortcuts": [
+      [
+        "openrefine.exe",
+        "openrefine-win-with-java-3.8.1.zip",
+        "OpenRefine",
+        "openrefine"
+      ]
+    ],
+    "checkver": {
+      "url": "https://github.com/OpenRefine/OpenRefine/releases",
+      "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+      "url": "https://github.com/OpenRefine/OpenRefine/releases/download/3.8.1/openrefine-win-with-java-3.8.1.zip"
+    }
 }
