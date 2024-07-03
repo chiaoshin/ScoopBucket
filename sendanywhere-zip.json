@@ -3,6 +3,7 @@
     "url": "https://github.com/chiaoshin/ScoopBucket/blob/main/sendanywhere.zip",
     "hash": "sha256:280aaef24a59619232f595c145d9c97cf677d5b3cf19441143e2bbcec5eac31d",
     "bin": "sendanywhere.zip",
+    "extract_dir": "SendAnywhere",
     "architecture": "x64",
     "license": "Proprietary",
     "description": "SendAnywhere is a file sharing application that lets you send files of any size directly from your device.",
@@ -10,7 +11,9 @@
     "shortcuts": [
       [
         "SendAnywhere.exe",
-        "sendanywhere.zip"
+        "sendanywhere.zip",
+        "SendAnywhere",
+        "Send Anywhere"
       ]
     ],
     "checkver": {
