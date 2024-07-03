@@ -9,7 +9,6 @@
     "shortcuts": [
       [
         "openrefine.exe",
-        "openrefine-win-with-java-3.8.1.zip",
         "OpenRefine",
         "openrefine"
       ]
