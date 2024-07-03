@@ -1,7 +1,7 @@
 {
     "version": "8.5.0",
     "url": "https://github.com/chiaoshin/ScoopBucket/blob/main/sendanywhere.zip",
-    "hash": "sha256:3a058da727323bff6282f4dac97dc11337a48fff4bbdc7ed15d6285e82e50c3e",
+    "hash": null,
     "bin": "Send Anywhere.exe",
     "extract_dir": "sendanywhere",
     "architecture": "x64",
