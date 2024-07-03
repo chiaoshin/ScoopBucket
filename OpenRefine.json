@@ -3,8 +3,7 @@
     "license":  "Proprietary",
     "extract_dir":  "openrefine-win-with-java-3.8.1",
     "url":  "https://github.com/OpenRefine/OpenRefine/releases/download/3.8.1/openrefine-win-with-java-3.8.1.zip",
-    "depends":  "",
     "homepage":  "https://openrefine.org/download",
-    "hash":  "",
+    "hash":  "sha256:094c9b3716608912abb5365ad4826acad94c3cf4f4890db1dfac0a48482475fa",
     "bin":  "openrefine-win-with-java-3.8.1.zip"
 }
