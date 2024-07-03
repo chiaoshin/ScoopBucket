@@ -7,7 +7,7 @@
     "hash":  "sha256:094c9b3716608912abb5365ad4826acad94c3cf4f4890db1dfac0a48482475fa",
     "shortcuts": [
       [
-        "openrefine.exe",
+        "openrefine-3.8.1\\openrefine.exe",
         "OpenRefine",
         "openrefine"
       ]
