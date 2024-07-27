@@ -1,6 +1,6 @@
 {
     "version": "8.5.0",
-    "url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup.exe",
+    "url": "https://update.send-anywhere.com/downloads/SendAnywhereSetup.exe#/SendAnywhereSetup.exe",
     "hash": "sha256:280aaef24a59619232f595c145d9c97cf677d5b3cf19441143e2bbcec5eac31d",
     "installer": {
         "script": "Expand-InnoArchive -Path \"$dir\\$fname\" -Removal"
