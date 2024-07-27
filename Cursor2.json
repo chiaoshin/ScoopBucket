@@ -4,7 +4,7 @@
     "hash": "sha256:20072e059b61b218a6bf02c95b731bedc69854a4e67f127ad480574beb4de510",
     "installer": {
         "script": [
-            "Expand-InnoArchive -Path \"$dir\\CursorSetup.exe\" -Removal"
+            "Invoke-ExternalCommand \"$dir\\innounp.exe\" -ArgumentList \"-x -d=$dir $dir\\CursorSetup.exe\" -RunAs | Out-Null"
         ]
     },
     "bin": "Cursor.exe",
@@ -29,4 +29,4 @@
     "autoupdate": {
         "url": "https://downloader.cursor.sh/windows/nsis/x64#/CursorSetup.exe"
     }
-  }
+}
