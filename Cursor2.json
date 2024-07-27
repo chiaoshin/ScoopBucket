@@ -4,7 +4,8 @@
     "hash": "sha256:20072e059b61b218a6bf02c95b731bedc69854a4e67f127ad480574beb4de510",
     "installer": {
         "script": [
-            "Invoke-ExternalCommand \"$dir\\innounp.exe\" -ArgumentList \"-x -d=$dir $dir\\CursorSetup.exe\" -RunAs | Out-Null"
+            "Invoke-ExternalCommand \"$dir\\innounp.exe\" -ArgumentList \"-x -d=$dir $dir\\CursorSetup.exe\" -RunAs | Out-Null",
+            "Move-Item \"$dir\\app\\Cursor.exe\" \"$dir\\Cursor.exe\""
         ]
     },
     "bin": "Cursor.exe",
